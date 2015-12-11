@@ -1,0 +1,110 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[latin9]{inputenc}
+\usepackage{graphicx}
+\usepackage[margin=3cm]{geometry}
+\usepackage{bookman}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-nolayout]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{supertabular,booktabs}
+\usepackage{multicol}
+\usepackage{anysize}
+\usepackage[bookmarks=true,colorlinks=true,urlcolor=magenta,linkcolor=blue]{hyperref}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{titling}
+\usepackage{fancyhdr}
+\marginsize{1.5cm}{1.5cm}{1cm}{2cm}
+\pagestyle{fancy}
+\fancyhf{}
+\chead{\textbf{ $ \bullet $ Cuadernillo Guía Física General $ \bullet $ } 2015-B}
+\rfoot{\thepage}
+\begin{document}
+
+\begin{center}
+\textbf{
+{\LARGE Física General}
+}
+\end{center}
+\vspace{0.5cm}
+
+\tableofcontents
+
+\section{Introducción}
+ El presente documento ha sido desarrollado para la documentación de CLAVEMAT. Los contenidos del curso han sido diseñados para ser una guía para los estudiantes de Nivelación de la EPN. El objetivo del texto es presentar una guía para la resolución de problemas de Física de Nivelación. Se realizará un mayor énfasis en la parte conceptual y objetivos de evaluación de determinados problemas y se presentará una guía para la resolución numérica de los ejercicios. El curso incluye la explicación teórica de temas de Cinemática, Dinámica, Trabajo y Energía.
+
+\section{Cinemática}
+
+La cinemática es la parte de la Física que se dedica al estudio del movimiento de los cuerpos, sin tener en cuenta la causa que genera dicho movimiento. Dentro del curso de Nivelación estos contenidos se restringen al caso en el que la aceleración es constante, en este caso se incluye el estudio de Movimiento Rectilíneo Uniforme (MRU), Movimiento Rectilíneo Uniformemente Variado (MRUV), Caída Libre, Lanzamiento Vertical, Movimiento Parabólico, Movimiento Circular Uniforme y Movimiento Circular Uniformemente Variado.
+
+\subsection{Vectores}
+
+Los vectores son elementos matemáticos utilizados en la física para representar diferentes cantidades medibles. Se caracteriza por tener magnitud y una dirección. La importancia de su estudio se debe a que magnitudes físicas como la Posición, Velocidad, Aceleración, Posición Angular, Velocidad Angular, Aceleración Angular, Fuerza, Cantidad de Movimiento, etc. son representadas mediante vectores. 
+
+La representación típica de un vector es mediante una flecha, donde la magnitud esta contenida en la longitud del vector y la dirección es aquella en la cual apunta el vector. Cuando la magnitud de un vector es igual a 1 (En sus unidades correspondientes) se le llama vector unitario y es un indicador de la dirección de un vector.
+
+La ventaja de trabajar con vectores se debe a que son fácilmente representables. Los vectores de las diferentes magnitudes físicas se los gráfica en un Plano cartesiano. En el plano cartesiano se puede trabajar en diferentes tipos de coordenadas. En dos dimensiones, las más comunes son las coordenadas cartesianas, geográficas y polares, mientras que en 3 dimensiones se tiene las coordenadas cartesianas, esféricas y cilíndricas. Cuando se trabaja en coordenadas cartesianas, un vector esta determinado de forma única cuando se indica el valor de sus coordenadas en la dirección x, y, z. Se suele notar del siguiente modo:
+
+\begin{equation}
+\textbf{r}=3\textbf{i}-2\textbf{j}
+\end{equation}
+
+Donde $\textbf{i}$, $\textbf{j}$, $\textbf{k}$ representan a los vectores unitarios en la dirección que ha sido escogida como x, y, z respectivamente.
+
+Del mismo modo, a un vector en coordenadas polares se lo caracteriza únicamente mediante su magnitud y ángulo polar $\phi$, donde el ángulo polar es el ángulo formado entre el vector y el eje positivo x. En el texto se utilizará la siguiente notación para vectores en coordenadas polares:
+
+\begin{equation}
+\textbf{r}=(3.61,326.31^{0})
+\end{equation}
+
+Donde el primer término antes de la coma indica la magnitud y el segundo el ángulo polar.
+
+Mientras que para las coordenadas geográficas, el eje positivo \emph{y} toma el nombre de Norte, el eje negativo \emph{x} toma el nombre de Oeste, el eje negativo \emph{y} toma el nombre de Sur y el eje positivo \emph{x} toma el nombre de Este. En coordenadas geográficas, un vector esta determinado únicamente por su magnitud y un ángulo $\alpha$ donde este ángulo es aquel que forma el vector con el eje \emph{y}, se escoge el eje \emph{+y} o \emph{-y} de tal forma que el ángulo sea menor a $90^{0}$. Se utilizará la siguiente notación:
+
+\begin{equation}
+\textbf{r}=(3.61,S56.31^{0}E)
+\end{equation}
+
+Donde el primer término antes de la coma indica la magnitud y el segundo indica que el vector se halla cuando a partir del eje Sur mido $56.31^{0}$ hacia el Este.
+
+En la \ref{Figura01} se ilustra al vector \textbf{r} y su ángulo polar y geográfico (según el tipo de coordenadas en las que se lo quiera representar).
+
+\begin{center}
+\begin{figure}[H]
+\caption{Ejemplo de un vector en 2 Dimensiones y sus elementos en los diferentes sistemas de coordenadas}
+\includegraphics[width=10cm,height=10cm]{vector01.png}
+\label{Figura01}
+\end{figure}
+\end{center}
+
+\subsection{Movimiento Rectilíneo Uniforme}
+
+\subsection{Movimiento Rectilíneo Uniformemente variado}
+
+\subsection{Movimiento Parabólico}
+
+\subsection{Movimiento Circular}
+
+\section{Dinámica}
+
+\subsection{Leyes de Newton}
+
+\subsection{Diagrama de Cuerpo libre}
+
+\subsection{Principio de la conservación de la cantidad de movimiento lineal}
+
+\subsection{Dinámica rotacional}
+
+\subsection{Principio de conservación de la cantidad de movimiento angular}
+
+\section{Trabajo y Energía}
+
+\subsection{Principio de la conservación de la Energía}
+
+\subsection{Fuerzas Centrales y Energía Potencial}
+
+\end{document} 
